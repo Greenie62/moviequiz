@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+}
+
+
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+    background:lightgray;
+}
+
+header{
+    text-align:center;
+}
+
+
+.quizModal{
+    height:250px;
+    width:75%;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.startBtn{
+    height:65px;
+    width:65px;
+    border-radius:50%;
+    background:green;
+    text-align:center;
+    cursor:pointer;
+}
+
+.startBtn:hover{
+    text-decoration:underline;
+}
+
+.quizCard{
+    width:100%;
+    height:100%;
+    /* background:red; */
+    position:absolute;
+    text-align:center;
+    background:lightgray;
+}
+
+.quizDiv{
+    position:relative;
+    height:0px;
+    animation:slideIn 2s forwards;
+    background:orange;
+    overflow:hidden;
+}
+
+@keyframes slideIn{
+    0%{height:0px}
+    100%{height:100%}
+}
+
+.answerBtn{
+    width:150px;
+    height:25px;
+    background:green;
+}
+
+.movieposter{
+    height:80px;
+    width:80px;
+}

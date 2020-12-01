@@ -1,0 +1,7 @@
+[
+    {"id":1,"title":"die hard","question":"Yippee kay yay mother", "answers":["ducker","fucker","quack","snubby"],"answer":"fucker"},
+    {"id":2,"title":"meet the parents","question":"Would you like to say _____ Greg", "answers":["something","trump rules", "pats baby", "prayer"],"answer":"prayer"},
+    {"id":3,"title":"office space","question":"Bob and...", "answers":["Rob", "Jane","Bob", "Skiiiiup"],"answer":"Bob"},
+    {"id":4,"title":"commando","question":"Let off some ______, Bennett", "answers":["beam","shit","smoke", "steam"],"answer":"steam"},
+    {"id":5,"title":"backdraft","question":"Tired, tired of hearing the _____ Brian", "answers":["bitching", "whining","farting", "sirens"],"answer":"sirens"}
+]
